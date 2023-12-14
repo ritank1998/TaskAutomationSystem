@@ -12,6 +12,7 @@
 This code comprises several asynchronous functions in a Node.js environment, mainly dealing with CRUD (Create, Read, Update, Delete) operations for users and tasks, and utilizes the mongoose library for interaction with MongoDB.
 
 `addUsers`:
+
     1. **Purpose:** Adds users to the database.
     
     2. **Input:** Expects name and id from the request body.
@@ -21,6 +22,7 @@ This code comprises several asynchronous functions in a Node.js environment, mai
     4. **Output:** Returns the newly added user.
 
 `addTask` :
+
     1) **Purpose:** Adds tasks to the database.
     
     2) **Input:** Expects taskName and taskId from the request body.
@@ -30,11 +32,13 @@ This code comprises several asynchronous functions in a Node.js environment, mai
     4) **Output:** Returns the newly added task.
 
 `getUsers`:
+
     1) **Purpose:** Retrieves all users from the database.
     
     2) **Output:** Returns a JSON object containing all users stored in the userDetails 3) collection.
 
 `getTask`:
+
     1) **Purpose:** Performs complex operations related to task management.
     
     2) **Process:**
