@@ -13,8 +13,11 @@ This code comprises several asynchronous functions in a Node.js environment, mai
 
 `addUsers`:
     1) Purpose: Adds users to the database.
+    
     2) Input: Expects name and id from the request body.
+    
     3) Process: Creates a new user entry in the userDetails collection.
+    
     4) Output: Returns the newly added user.
 
 `addTask` :
