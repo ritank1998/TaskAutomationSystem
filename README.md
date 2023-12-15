@@ -13,35 +13,37 @@ This code comprises several asynchronous functions in a Node.js environment, mai
 
 `addUsers`:
 
-    1. **Purpose:** Adds users to the database.
+    1. Purpose: Adds users to the database.
     
-    2. **Input:** Expects name and id from the request body.
+    2. Input: Expects name and id from the request body.
     
-    3. **Process:** Creates a new user entry in the userDetails collection.
+    3. Process: Creates a new user entry in the userDetails collection.
     
-    4. **Output:** Returns the newly added user.
+    4. Output: Returns the newly added user.
 
 `addTask` :
 
-    1) **Purpose:** Adds tasks to the database.
+    1) Purpose: Adds tasks to the database.
     
-    2) **Input:** Expects taskName and taskId from the request body.
+    2) Input: Expects taskName and taskId from the request body.
     
-    3) **Process:** Creates a new task entry in the taskDetails collection.
+    3) Process: Creates a new task entry in the taskDetails collection.
     
-    4) **Output:** Returns the newly added task.
+    4) Output: Returns the newly added task.
 
 `getUsers`:
 
-    1) **Purpose:** Retrieves all users from the database.
+    1) Purpose: Retrieves all users from the database.
     
-    2) **Output:** Returns a JSON object containing all users stored in the userDetails 3) collection.
+    2) Output: Returns a JSON object containing all users stored in the userDetails 
+    
+    3) collection.
 
 `getTask`:
 
-    1) **Purpose:** Performs complex operations related to task management.
+    1) Purpose: Performs complex operations related to task management.
     
-    2) **Process:**
+    2) Process:
         Retrieves all tasks from taskDetails and dumpedTask collections.
         Identifies potential duplicate tasks based on task names and IDs.
         Manages a queue (q) of tasks and handles task operations:
